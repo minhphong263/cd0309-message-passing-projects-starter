@@ -8,7 +8,7 @@ from kafka import KafkaProducer
 
 
 TOPIC_NAME = 'location'
-KAFKA_SERVER = 'kafka-service:9092'
+KAFKA_SERVER = 'kafka:9092'
 
 producer = KafkaProducer(bootstrap_servers=KAFKA_SERVER)
 

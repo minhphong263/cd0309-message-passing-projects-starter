@@ -7,7 +7,7 @@ import logging
 from config import DB_USERNAME, DB_HOST, DB_NAME, DB_PORT, DB_PASSWORD
 
 TOPIC_NAME = 'location'
-KAFKA_SERVER = 'kafka-service:9092'
+KAFKA_SERVER = 'kafka:9092'
 messages = KafkaConsumer(TOPIC_NAME,bootstrap_servers=[KAFKA_SERVER])
 
 

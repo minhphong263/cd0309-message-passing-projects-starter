@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - image: phongvm/location-consumer:latest
-          name: location-producer
+          name: location-consumer
           imagePullPolicy: Always
           env:
             - name: DB_USERNAME
